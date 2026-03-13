@@ -23,3 +23,21 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 # Terminkalender
+
+## Das Konzept eines Stores;
+
+### State;
+Das sind die Daten eine Anwendung.
+
+### Getters;
+Berechnete Werte aus dem Store.
+
+### Mutations; 
+Verändern den State.
+
+### reactive();
+Das ist eine Vue-Funktion, die das Objekt beobachtbar macht.
+
+### readonly();
+Das bedeutet, dass die Daten dürfen nicht direkt geändert werden, aber nur über "mutations".
+
