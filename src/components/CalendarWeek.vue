@@ -10,8 +10,17 @@
 
 <script>
 import CalendarDay from "@/components/CalendarDay.vue";
+import Store from "../store";
 export default {
   name: "CalendarWeek",
+
+
+  data() {
+    return {
+      calendarWeekData: Store.state.calendarWeekData,
+    };
+  },
+
   components: {
     CalendarDay,
   }
